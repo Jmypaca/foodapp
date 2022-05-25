@@ -1,0 +1,17 @@
+{
+  "name": "foodapp",
+  "version": "1.0.0",
+  "description": "App de comidas",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "develop": "nodemon server.js",
+    "sass": "sass --source-map -w ./src/SCSS/main.scss ./src/styles.css"
+  },
+  "author": "Jeimy P",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  }
+}

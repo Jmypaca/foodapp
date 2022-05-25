@@ -1,0 +1,15 @@
+* node_modules = Dependencias externas ( no tocar)
+* src = Source Code - Codigo Fuente
+* package-lock.json = info de dependencias ( ignorar ) 
+* package.json = configuracion de dependencias ( no tocar)
+* src : 
+  - Components:  Es la union de JS y SCSS. Genera plantillas para los HTML
+	* 
+  -  Js : Javascript codigo  - FUNCIONALIDAD Y LOGICA
+	* index.js : principal
+	* functions: funciones muy complejas que luego entenderas
+  - SCSS : Estilos con SASS 
+    * main.scss : principal 
+  - .html : estuctura & HTML
+  - styles.css : estilos  NO SE MODIFICA es INUTIL HACERLO 
+  - styles.css.map :  ignorar ( es algo generado automatico ) 
